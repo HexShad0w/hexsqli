@@ -34,7 +34,7 @@ cd sql-injection-detector
 
 ```bash
 python hexsqli.py
-
+```
 
 ## Credit 
 
