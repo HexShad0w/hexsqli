@@ -26,8 +26,7 @@ pip install requests colorama
 
 1. Clone the repository or download the script:
 
-git clone https://github.com/yourusername/sql-injection-detector.git
-cd sql-injection-detector
+git clone https://github.com/HexShad0w/hexsqli.git
 
 
 2. Run the script:
