@@ -18,12 +18,12 @@ def banner():
 |_| |_|\___/_/\_\___/\__, |_|_|
                         |_|
 
-made by hexsh1dow
+made by @hexsh1dow and @GirlsWhoCodeBot
 """)
     print(Fore.CYAN + "=" * 50)
 
 
-def detect_sqli(target_url, payload_file,timeout_threshold, output_file="output.txt"):
+def detect_sqli(target_url, payload_file,timeout_threshold):
 
     print(Fore.BLUE + f"\n[+] Starting SQLi detection on: {target_url}")
     results = []
@@ -69,11 +69,6 @@ def detect_sqli(target_url, payload_file,timeout_threshold, output_file="output.
                 print(Fore.RED + f"[-] No vulnerability detected for payload: {payload}")
                 results.append(f"[-] No vulnerability detected with payload: {payload}")
 
-
-        with open(output_file, "w") as output:
-            output.write("\n".join(results))
-        print(Fore.CYAN + f"\n[+] Results saved to '{output_file}'.\n")
-
     except FileNotFoundError:
         print(Fore.RED + f"[!] Error: Payload file '{payload_file}' not found.")
     except Exception as e:
@@ -89,9 +84,8 @@ def main():
     print(Fore.MAGENTA + "\n[!] Ensure the URL includes '*' where payloads will be tested")
     target = input(Fore.CYAN + "\nEnter the target URL: ")
     payload_file = input(Fore.CYAN + "Enter the path to the payloads file: ")
-    output_file = input(Fore.CYAN + "Enter the name of the output file (e.g., result.txt) ")
-    timeout_threshold = []
-    detect_sqli(target, payload_file, timeout_threshold, output_file)
+    timeout_threshold = 10
+    detect_sqli(target, payload_file, timeout_threshold)
 
 
 
