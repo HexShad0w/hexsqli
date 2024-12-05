@@ -7,7 +7,6 @@ A Python-based tool designed to help users understand how to create tools for de
 - Automates SQL Injection testing.
 - Tests with a custom list of payloads.
 - Detects potential vulnerabilities based on response times.
-- Logs results to a file for further analysis.
 - User-friendly interface with color-coded output.
 
 ## Prerequisites
