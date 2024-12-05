@@ -1,4 +1,4 @@
-# SQL Injection Detection Script
+# HEXSQLI
 
 A Python-based tool designed to help users understand how to create tools for detecting potential SQL Injection vulnerabilities by testing a specified URL against a list of payloads.
 
