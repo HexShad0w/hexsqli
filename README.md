@@ -25,9 +25,9 @@ pip install requests colorama
 ## Usage
 
 1. Clone the repository or download the script:
-
+```bash
 git clone https://github.com/HexShad0w/hexsqli.git
-
+```
 
 2. Run the script:
 
