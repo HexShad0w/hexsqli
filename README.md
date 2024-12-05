@@ -32,7 +32,7 @@ git clone https://github.com/HexShad0w/hexsqli.git
 2. Run the script:
 
 ```bash
-python hexsqli.py
+python3 hexsqli.py
 ```
 
 ## Credit 
