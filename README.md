@@ -36,5 +36,4 @@ python3 hexsqli.py
 
 ## Credit 
 
-<a href="https://x.com/hexsh1dow">@hexsh1dow</a> &
-<a href="https://x.com/GirlsWhoCodeBot">@GirlsWhoCodeBot</a>
+<a href="https://x.com/hexsh1dow">@hexsh1dow</a>
