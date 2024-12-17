@@ -18,7 +18,7 @@ def banner():
 |_| |_|\___/_/\_\___/\__, |_|_|
                         |_|
 
-made by @hexsh1dow
+made by @hexsh1dow & @GirlsWhoCodeBot
 """)
     print(Fore.CYAN + "=" * 50)
 
